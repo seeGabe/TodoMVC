@@ -1,6 +1,6 @@
 // Todo Item view
 // ==============
-var app = new app || {};
+var app =  app || {};
 
 // DOM element for the todo item....
 app.TodoCiew = Backbone.View.extend({

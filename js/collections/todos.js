@@ -1,6 +1,6 @@
 // Todo Collection
 // ===============
-
+var app = app || {};
 // The collection of todos is backed by  *local Storage* instead of remote server
 
 var TodoList = Backbone.Collection.extend({
@@ -11,7 +11,7 @@ var TodoList = Backbone.Collection.extend({
 	// you need to have the Backbone.LocalStorage plug-in loaded
 	// if you don't -- comment out the next line
 	// if you don't -- comment out the next line
-	localStorage: new Backbone.LocalStorage('todos-backbone'),
+	localStorage: new Backbone.localStorage('todos-backbone'),
 	
 	// Filter down the list of all todo items that are finished
 	completed: function(){
