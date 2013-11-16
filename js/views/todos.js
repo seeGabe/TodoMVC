@@ -3,7 +3,7 @@
 var app =  app || {};
 
 // DOM element for the todo item....
-app.TodoCiew = Backbone.View.extend({
+app.TodoView = Backbone.View.extend({
 	// ... is a list item
 	tagName: 'li',
 	// cache the template function for an item
